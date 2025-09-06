@@ -5,6 +5,7 @@ A simple text editor with AI features. Built with React and Tiptap editor.
 ## What this does
 
 This is a text editor where you can:
+
 - Write and format text
 - Get AI help to improve your writing
 - Search the web and add results
@@ -13,11 +14,13 @@ This is a text editor where you can:
 ## Features
 
 ### Basic Editor
+
 - Rich text editing with Tiptap
 - Bold, italic, lists, tables
 - Text alignment options
 
 ### AI Features
+
 - **Floating Toolbar** - Select text and get AI suggestions
 - **Chat Sidebar** - Ask AI questions
 - **Text Improvement** - Fix grammar and style
@@ -27,18 +30,21 @@ This is a text editor where you can:
 ## How to use
 
 ### Setup
+
 1. Clone this repo
 2. Run `npm install`
 3. Run `npm run dev`
 4. Open http://localhost:5174
 
 ### API Key (Optional)
+
 - Get OpenAI API key from https://platform.openai.com
 - Click "Setup API Key" in the app
 - Enter your key
 - Without key, you get demo responses
 
 ### Using the Editor
+
 1. **Write text** in the main editor
 2. **Select text** to see floating toolbar
 3. **Choose AI action** - improve, shorten, expand, etc.
@@ -48,11 +54,13 @@ This is a text editor where you can:
 ## Examples
 
 ### Floating Toolbar
+
 - Select text → Click "Improve" → Get better version
 - Select text → Click "Shorten" → Get concise version
 - Select text → Click "Table" → Convert to table
 
 ### Chat Commands
+
 - "Improve my grammar"
 - "Search for React news and insert summary"
 - "Write a professional email"
@@ -86,17 +94,20 @@ src/
 ## Development
 
 ### Local Development
+
 ```bash
 npm install
 npm run dev
 ```
 
 ### Build for Production
+
 ```bash
 npm run build
 ```
 
 ### Deploy
+
 - Push to GitHub
 - Deploy on Vercel/Netlify
 - Works without API key (demo mode)
@@ -104,11 +115,13 @@ npm run build
 ## API Key Setup
 
 ### For Real AI Features
+
 1. Get OpenAI API key
 2. Add to app settings
 3. All features become fully functional
 
 ### Without API Key
+
 - App works in demo mode
 - Mock AI responses
 - All UI features work
@@ -117,12 +130,14 @@ npm run build
 ## Troubleshooting
 
 ### Common Issues
+
 - **API key not working** - Check if it starts with "sk-"
 - **Floating toolbar not showing** - Make sure text is selected
 - **Chat not responding** - Check internet connection
 - **Search not working** - Try different search terms
 
 ### Browser Support
+
 - Modern browsers only
 - Needs localStorage for API key
 - Works on mobile devices
@@ -130,11 +145,13 @@ npm run build
 ## Cost
 
 ### OpenAI API
+
 - GPT-3.5-turbo: $0.002 per 1K tokens
 - Very cheap for text editing
 - Free credits for new accounts
 
 ### Hosting
+
 - Vercel/Netlify: Free
 - GitHub Pages: Free
 - No server costs
